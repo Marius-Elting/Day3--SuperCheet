@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: yellow;
+}
+
+header ul {
+    text-align: right;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: black;
+}
+
+main section article {
+    display: inline-block;
+    width: 200px;
+}
+
+section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+main section article p {
+    margin-bottom: 40px;
+}
+
+main section article a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: pink;
+    transition: 0.5s;
+}
+
+main section:nth-of-type(1) img {
+    margin-right: 100px;
+}
+
+main section:nth-of-type(2) div img:nth-of-type(2) {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer {
+    background-color: yellow;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
